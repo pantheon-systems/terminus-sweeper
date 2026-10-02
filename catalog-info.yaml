@@ -1,0 +1,13 @@
+# Managed by github-terraform — do not edit manually
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "terminus-sweeper"
+  description: "A Terminus plugin for Pantheon users to sweep/clean their dashboard by removing themselves to the customer's site dashboard and delete owned frozen site."
+  annotations:
+    "backstage.io/techdocs-ref": "dir:docs/"
+spec:
+  type: "unknown"
+  lifecycle: "experimental"
+  owner: "site-experience"
